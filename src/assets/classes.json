@@ -1,0 +1,34 @@
+{
+  "classes": [
+    {
+      "classname": "4AHITM",
+      "students": [
+        {
+          "firstname": "Laura",
+          "lastname": "Aigner"
+        },
+        {
+          "firstname": "David",
+          "lastname": "Auinger"
+        },
+        {
+          "firstname": "Hans",
+          "lastname": "Bauer"
+        }
+      ]
+    },
+    {
+      "classname": "4BHITM",
+      "students": [
+        {
+          "firstname": "Fabian",
+          "lastname": "Burgstrasser"
+        },
+        {
+          "firstname": "Felix",
+          "lastname": "Dastl"
+        }
+      ]
+    }
+  ]
+}
