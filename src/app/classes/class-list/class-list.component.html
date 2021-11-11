@@ -1,6 +1,6 @@
 <div class="container-fluid">
-  <h2>Classes</h2>
-  <ul class="list-group">
-    <li class="list-group-item" *ngFor="let cn of classNames">{{ cn }}</li>
-  </ul>
+    <h2>Classes</h2>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let cn of classNames" (click)="showStudentOf(cn)">{{ cn }}</li>
+    </ul>
 </div>
