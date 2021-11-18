@@ -16,8 +16,8 @@ export class ClassDetailComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        this.className = this.route.snapshot.params['classname'];
-        this.students = this.dataService.getStudentsOfClass(this.className);
+        /*this.className = this.route.snapshot.params['classname'];
+        this.students = this.dataService.getStudentsOfClass(this.className);*/
 
         this.route.params.subscribe((params: Params)=> {
             this.className = params['classname'];
